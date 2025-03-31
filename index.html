@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICML Paper 5743 Response</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2C3E50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        a {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ICML Paper 5743 Rebuttal</h1>
+    <h3>Table A: Comparisons with existing search schemes</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Method</th>
+                <th>Task Domain</th>
+                <th>Collection Granularity</th>
+                <th>Annotation Format</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>WebRL [1]</a></td>
+                <td>GUI control</td>
+                <td>Trajectory-Level</td>
+                <td>Finetune a reward model</td>
+            </tr>
+            <tr>
+                <td>PAE [2]</a></td>
+                <td>GUI control</td>
+                <td>Trajectory-Level</td>
+                <td>Use a pre-trained model</td>
+            </tr>
+            <tr>
+                <td>ETO [3]</a></td>
+                <td>GUI control & Embodied AI</td>
+                <td>Trajectory-Level</td>
+                <td>Expert labels for comparisons</td>
+            </tr>
+            <tr>
+                <td>DMPO [4]</a></td>
+                <td>GUI control & Embodied AI</td>
+                <td>Trajectory-Level</td>
+                <td>Finetune a reward model</td>
+            </tr>
+            <tr>
+                <td>DigiRL [5]</a></td>
+                <td>GUI control</td>
+                <td>Step-Level</td>
+                <td>Finetune a reward model</td>
+            </tr>
+            <tr>
+                <td>TP-LLaMA [6]</a></td>
+                <td>API calling</td>
+                <td>Step-Level</td>
+                <td>Use expert data</td>
+            </tr>
+            <tr>
+                <td>IPR [7]</a></td>
+                <td>GUI control & Embodied AI</td>
+                <td>Step-Level</td>
+                <td>Use expert data</td>
+            </tr>
+            <tr>
+                <td>StepAgent-Inverse [8]</a></td>
+                <td>GUI control & Embodied AI</td>
+                <td>Step-Level</td>
+                <td>Use expert data</td>
+            </tr>
+            <tr>
+                <td>Ours</td>
+                <td>Multimodal Reasoning</td>
+                <td>Step-Level</td>
+                <td>Use a pre-trained model</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>References</h3>
+    <ol>
+        [1] WEBRL: TRAINING LLM WEB AGENTS VIA SELF-EVOLVING ONLINE CURRICULUM REINFORCEMENT LEARNING. ICLR 2025.<br>
+        [2] Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents.<br>
+        [3] Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents. ACL 2024.<br>
+        [4] Direct Multi-Turn Preference Optimization for Language Agents. EMNLP 2024.<br>
+        [5] DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning. NeurIPS 2024.<br>
+        [6] Advancing Tool-Augmented Large Language Models: Integrating Insights from Errors in Inference Trees. NeurIPS 2024.<br>
+        [7] Watch Every Step! LLM Agent Learning via Iterative Step-level Process Refinement. EMNLP 2024.<br>
+        [8] From Novice to Expert: LLM Agent Policy Optimization via Step-wise Reinforcement Learning. WWW 2025.<br>
+    </ol>
+
+</body>
+</html>
